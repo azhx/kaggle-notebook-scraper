@@ -1,4 +1,4 @@
-name: kaggle-kernel-scraper
+name: kaggle-notebook-scraper
 channels:
   - defaults
 dependencies:
