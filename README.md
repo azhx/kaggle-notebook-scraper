@@ -1,6 +1,7 @@
 # kaggle-notebook-scraper
 WIP. Scraping Kaggle Notebooks to figure out what tools people are using to solve problems.
 
-`scraper.py` is a script that currently scrapes the COVID-19 Research Challenge kernels and writes out a metadata dataframe with details about every public notebook.
+`meta.py` gets info about all existing kernels on the COVID-19 Challenge in < 1 minute and write a file called `covid-kernels.csv`
 
-Next steps are to use the links in `covid-kernels.csv` to scrape the actual notebooks themselves.
+`notebook_scraper.py` scrapes all kernels from `covid-kernels.csv` over a longer period of time ~1h (selenium >:(( !!!) for views, length, and modules imported. 
+
